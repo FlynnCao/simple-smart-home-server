@@ -1,0 +1,25 @@
+{
+  "name": "woc7020-smart-home-backend",
+  "version": "1.0.0",
+  "description": "Server-side of smart home project ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FlynnCao/WOC7020-Smart-Home-Backend.git"
+  },
+  "author": "Flynn Cao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlynnCao/WOC7020-Smart-Home-Backend/issues"
+  },
+  "homepage": "https://github.com/FlynnCao/WOC7020-Smart-Home-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
